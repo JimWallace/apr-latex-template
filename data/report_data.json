@@ -1,150 +1,313 @@
 {
-  "review_years": [2025, 2026],
-  "faculty_name": "Your Name",
-  "rank": "Associate Professor",
-  "appointment_type": "Permanent",
+  "review_years": [
+    2025,
+    2026
+  ],
+  "faculty_name": "Jim Wallace",
+  "rank": "Professor",
+  "appointment_type": "",
   "appointment_category": "",
   "leave_dates": "",
   "reduced_workload_percentage": "100%",
-  "year1_teaching_weight": "40%",
-  "year1_research_weight": "40%",
-  "year1_service_weight": "20%",
-  "year2_teaching_weight": "40%",
-  "year2_research_weight": "40%",
-  "year2_service_weight": "20%",
-  "teaching_courses": [
-    {
-      "year_label": "Year 1",
-      "course_term": "HLTH 000 F '25",
-      "enrolled": "",
-      "first_time": "N",
-      "level": "U/G",
-      "delivery": "IP",
-      "developed": "N",
-      "required_or_elective": "Req",
-      "team_taught": "N"
-    }
-  ],
-  "scp_entries": [
-    {
-      "course": "",
-      "implementation": "",
-      "design": "",
-      "response_rate": "",
-      "enrolled": "",
-      "comments": ""
-    }
-  ],
-  "curriculum_work": [
-    {
-      "date": "",
-      "activity": ""
-    }
-  ],
-  "teaching_professional_development": [
-    {
-      "date": "",
-      "activity": ""
-    }
-  ],
-  "sotl_entries": [
-    {
-      "date": "",
-      "activity": ""
-    }
-  ],
+  "year1_teaching_weight": "",
+  "year1_research_weight": "",
+  "year1_service_weight": "",
+  "year2_teaching_weight": "",
+  "year2_research_weight": "",
+  "year2_service_weight": "",
+  "teaching_courses": [],
+  "scp_entries": [],
+  "curriculum_work": [],
+  "teaching_professional_development": [],
+  "sotl_entries": [],
   "undergrad_supervision_counts": {
     "total": "",
     "completed": "",
     "in_progress": ""
   },
-  "undergrad_supervision": [
-    {
-      "student_name": "",
-      "project": "",
-      "start_date": "",
-      "completion_status": "",
-      "co_supervisor": ""
-    }
-  ],
+  "undergrad_supervision": [],
   "graduate_supervision_counts": {
-    "total": "",
-    "completed": "",
-    "in_progress": ""
+    "total": "25",
+    "completed": "13",
+    "in_progress": "10"
   },
   "graduate_supervision": [
     {
-      "student_name": "",
-      "level": "",
+      "student_name": "Sebastian Cmentowski",
+      "level": "PDF",
+      "start_date": "",
+      "completion_status": "2024",
+      "co_supervisor": ""
+    },
+    {
+      "student_name": "Leila Homaeian",
+      "level": "PDF",
+      "start_date": "",
+      "completion_status": "In progress",
+      "co_supervisor": ""
+    },
+    {
+      "student_name": "Krzysztof Pietroszek",
+      "level": "PhD",
+      "start_date": "",
+      "completion_status": "2015",
+      "co_supervisor": ""
+    },
+    {
+      "student_name": "Marcela C.C. Bomfim",
+      "level": "PhD",
+      "start_date": "",
+      "completion_status": "2022",
+      "co_supervisor": ""
+    },
+    {
+      "student_name": "Leila Homaeian",
+      "level": "PhD",
+      "start_date": "",
+      "completion_status": "2022",
+      "co_supervisor": ""
+    },
+    {
+      "student_name": "Robert Gauthier",
+      "level": "PhD",
+      "start_date": "",
+      "completion_status": "2022",
+      "co_supervisor": ""
+    },
+    {
+      "student_name": "Veen Wong",
+      "level": "PhD",
+      "start_date": "",
+      "completion_status": "In progress",
+      "co_supervisor": ""
+    },
+    {
+      "student_name": "Christina Li",
+      "level": "PhD",
+      "start_date": "",
+      "completion_status": "In progress",
+      "co_supervisor": ""
+    },
+    {
+      "student_name": "Taha Liaqat",
+      "level": "PhD",
+      "start_date": "",
+      "completion_status": "In progress",
+      "co_supervisor": ""
+    },
+    {
+      "student_name": "Saba Oji",
+      "level": "PhD",
+      "start_date": "",
+      "completion_status": "In progress",
+      "co_supervisor": ""
+    },
+    {
+      "student_name": "Matthew Bradbury",
+      "level": "PhD",
+      "start_date": "",
+      "completion_status": "In progress",
+      "co_supervisor": ""
+    },
+    {
+      "student_name": "Denise Ng",
+      "level": "MSc",
+      "start_date": "",
+      "completion_status": "2017",
+      "co_supervisor": ""
+    },
+    {
+      "student_name": "Mila Tahai",
+      "level": "MSc",
+      "start_date": "",
+      "completion_status": "2018",
+      "co_supervisor": ""
+    },
+    {
+      "student_name": "Tina Chan",
+      "level": "MSc",
+      "start_date": "",
+      "completion_status": "2019",
+      "co_supervisor": ""
+    },
+    {
+      "student_name": "Marina Wada",
+      "level": "MSc",
+      "start_date": "",
+      "completion_status": "2019",
+      "co_supervisor": ""
+    },
+    {
+      "student_name": "Rachel Woo",
+      "level": "MSc",
+      "start_date": "",
+      "completion_status": "2022",
+      "co_supervisor": ""
+    },
+    {
+      "student_name": "Luka Ugaya Mazza",
+      "level": "MSc",
+      "start_date": "",
+      "completion_status": "2023",
+      "co_supervisor": ""
+    },
+    {
+      "student_name": "Brigitte Lee",
+      "level": "MSc",
+      "start_date": "",
+      "completion_status": "In progress",
+      "co_supervisor": ""
+    },
+    {
+      "student_name": "Amandeep Kaur",
+      "level": "MMath",
       "start_date": "",
       "completion_status": "",
+      "co_supervisor": ""
+    },
+    {
+      "student_name": "Ansh Sharma",
+      "level": "MMath",
+      "start_date": "",
+      "completion_status": "",
+      "co_supervisor": ""
+    },
+    {
+      "student_name": "An Chen",
+      "level": "MMath",
+      "start_date": "",
+      "completion_status": "In progress",
+      "co_supervisor": ""
+    },
+    {
+      "student_name": "Karthik Prasad",
+      "level": "MMath",
+      "start_date": "",
+      "completion_status": "In progress",
+      "co_supervisor": ""
+    },
+    {
+      "student_name": "Anna Zhelezniak",
+      "level": "MMath",
+      "start_date": "",
+      "completion_status": "In progress",
+      "co_supervisor": ""
+    },
+    {
+      "student_name": "Melissa Mainville",
+      "level": "MHI",
+      "start_date": "",
+      "completion_status": "2016",
+      "co_supervisor": ""
+    },
+    {
+      "student_name": "Chris McNab",
+      "level": "MSW",
+      "start_date": "",
+      "completion_status": "2024",
       "co_supervisor": ""
     }
   ],
   "committee_member_counts": {
-    "total": "",
+    "total": "6",
     "completed": "",
     "in_progress": ""
   },
-  "committee_memberships": [
-    {
-      "student_name": "",
-      "level": "",
-      "department": "",
-      "start_date": "",
-      "completion_status": ""
-    }
-  ],
-  "scholarly_summary_year": "2025",
+  "committee_memberships": [],
+  "scholarly_summary_year": "2026",
   "scholarly_summary_counts": {
-    "Full refereed published articles": "",
+    "Full refereed published articles": "2",
     "Full refereed in-press articles": "",
-    "Other scholarly work": "",
+    "Other scholarly work": "0",
     "Books": "",
     "Book chapters": "",
-    "Refereed published conference proceedings": "",
+    "Refereed published conference proceedings": "5",
     "Refereed in-press conference proceedings": ""
   },
   "teaching_summary": [
-    "Add course perception results, innovations, supervision, mentorship, and other evidence of teaching here."
+    "Areas of teaching expertise: Human-Computer Interaction, Computational Social Science, Games, Computer-Supported Cooperative Work, Information Visualization, Machine Learning"
   ],
   "scholarship_summary": [
-    "Add peer-reviewed outputs, grants, invited talks, knowledge mobilization, and scholarly impact here."
+    "[Journal] 2025: Community Support for Aging in Place: A Computational Thematic Analysis of Discussions about Informal Care on Reddit (Proceedings of the ACM on Human-Computer Interaction)",
+    "[Journal] 2025: Bold Sky: An Interdisciplinary Approach to Game Design for Intimate Partner Violence Prevention (Proceedings of the International Conference on Games and Narrative (ICGaN))",
+    "[Conference] 2025: Envisioning the Future of Interactive Health (Extended Abstracts of the ACM Conference on Human Factors in Computing Systems (CHI EA))",
+    "[Conference] 2025: Bold Sky: An Interdisciplinary Approach to Game Design for Intimate Partner Violence Prevention (Proceedings of the International Conference on Games and Narrative (ICGaN))",
+    "[Conference] 2025: DeTAILS: Deep Thematic Analysis with Iterative LLM Support (Proceedings of the 7th ACM Conference on Conversational User Interfaces)",
+    "[Conference] 2025: Bold Sky: Co-Designing an Intimate Partner Violence Prevention Game (Companion Publication of the 2025 ACM Designing Interactive Systems Conference)",
+    "[Conference] 2025: From Transformers Come Themes: Evaluating BERTopic for Qualitative Analysis of Social Media Data (Proceedings of ICHEC 2025 (ICHEC '25))",
+    "[Presentation] 2025: Setting Boundaries to Balance Informal Care and Independence: An Interview Study with Aging Parents and Adult Children (CHI 2025 Workshop on Technology-Mediated Caregiving for Older Adults Aging in Place)",
+    "[Presentation] 2025: Advancing Suicide Ideation Detection: A Comparative Study of ML, BERT, and GPT-Based Few Shot Learning (Research and Practice in Health Sciences Conference)",
+    "[Presentation] 2025: Thematic Analysis Toolkit for Human-LLM Collaboration (Research and Practice in Health Sciences Conference)",
+    "[Presentation] 2025: Bold Sky: Co-Designing A Gender Transformative Game for Intimate Partner Violence Prevention (Research and Practice in Health Sciences Conference)",
+    "[Presentation] 2025: Setting Boundaries to Balance Informal Care and Independence: An Interview Study with Aging Parents and Adult Children (Symposium on Aging Research)",
+    "[Presentation] 2025: Community Support for Aging in Place: A Computational Thematic Analysis of Discussions about Informal Care on Reddit (Symposium on Aging Research)",
+    "[Presentation] 2025: A Prompt a Day Keeps the Doctor Away: How Large Language Models\u2019 Behaviour Influences Trust in Health and Self-Diagnosis Queries (Annual Biomedical Research Conference (ABRCMS 2025))",
+    "[Presentation] 2025: Bold Sky: Co-Designing a Gender-Transformative Digital Game to Engage Young Men in Preventing Intimate Partner Violence (International Summit on Ending Gender-Based Violence)",
+    "[Invited talk] 2025: Community Support for Aging in Place: A Computational Thematic Analysis of Discussions about Informal Care on Reddit (Human-Computer Interaction in Healthcare)",
+    "[Invited talk] 2025: Critical Tech Talk 12: Vibe Coding with AI for Cancer Detection -- Building Mini Medical Machines in the Shadow of \u201cBig Tech\u201d",
+    "[Grant] James Wallace (PI)  |  Graham Seed Fund  |  35,000  |  2026 -- 2027  |  AI Adoption for",
+    "[Grant] Cosmin Munteanu,  |  National Research Council  |  320,966  |  2026 -- 2028  |  Aging in Place",
+    "[Grant] Karen Cochrane  |  UW Arts Antagonism and  |  10,000  |  2026 -- 2027  |  Future of",
+    "[Grant] Xiaolin Wei  |  CIHR  |  100,000  |  2025 -- 2026  |  GACD",
+    "[Grant] James Wallace (PI)  |  Google Cloud Credits  |  7,200  |  2025  |  LLM Deductive Coding",
+    "[Grant] James Wallace (PI)  |  UW CIHR RIF  |  10,000  |  2024-2026  |  eSports Injury Prevention",
+    "[Grant] Karen Cochrane  |  NAR Catalyst  |  10,000  |  2024-2025  |  Independent Living",
+    "[Grant] Leah Zhang-Kennedy,  |  UW Trailblazer  |  53,000  |  2024-2026  |  VR Therapy",
+    "[Grant] James Wallace (PI)  |  NSERC  |  205,000  |  2022 -- 2027  |  Discovery Grant",
+    "[Grant] Helene Fournier,  |  National Research Council  |  201,300  |  2023 -- 2026  |  Aging in Place"
   ],
   "technical_reports": [
     ""
   ],
   "research_translation": [
-    ""
+    "Current research interests: Human-Computer Interaction, Computational Social Science, Games, Computer-Supported Cooperative Work, Information Visualization, Machine Learning",
+    "[Presentation] 2025: Setting Boundaries to Balance Informal Care and Independence: An Interview Study with Aging Parents and Adult Children (CHI 2025 Workshop on Technology-Mediated Caregiving for Older Adults Aging in Place)",
+    "[Presentation] 2025: Advancing Suicide Ideation Detection: A Comparative Study of ML, BERT, and GPT-Based Few Shot Learning (Research and Practice in Health Sciences Conference)",
+    "[Presentation] 2025: Thematic Analysis Toolkit for Human-LLM Collaboration (Research and Practice in Health Sciences Conference)",
+    "[Presentation] 2025: Bold Sky: Co-Designing A Gender Transformative Game for Intimate Partner Violence Prevention (Research and Practice in Health Sciences Conference)",
+    "[Presentation] 2025: Setting Boundaries to Balance Informal Care and Independence: An Interview Study with Aging Parents and Adult Children (Symposium on Aging Research)",
+    "[Presentation] 2025: Community Support for Aging in Place: A Computational Thematic Analysis of Discussions about Informal Care on Reddit (Symposium on Aging Research)",
+    "[Presentation] 2025: A Prompt a Day Keeps the Doctor Away: How Large Language Models\u2019 Behaviour Influences Trust in Health and Self-Diagnosis Queries (Annual Biomedical Research Conference (ABRCMS 2025))",
+    "[Presentation] 2025: Bold Sky: Co-Designing a Gender-Transformative Digital Game to Engage Young Men in Preventing Intimate Partner Violence (International Summit on Ending Gender-Based Violence)"
   ],
   "patents": [
     ""
   ],
   "service_university": [
-    ""
+    "SPHS Undergraduate Programs Committee 2025 -- 2026",
+    "SPHS Professional Programs Admissions Committee 2025 -- 2026",
+    "Faculty Council Chair Elect 2025 -- 2026"
   ],
   "service_profession_membership": [
-    ""
+    "ACM Professional Member 2008 -- Present"
   ],
   "service_profession_committees": [
-    ""
+    "ACM Conference on Interactive Health 2026 Early Career Workshop Chair",
+    "ACM Conference on Interactive Health 2026 Convener (Founding Member)",
+    "ACM Conference on Conversational User Interfaces 2025 General Chair",
+    "ACM Conference on Supporting Group Work 2025 -- 2027",
+    "ACM Conference on Designing Interactive Systems (DIS): 2010, 2011, 2016, 2018, 2024, 2026",
+    "ACM Conference on Supporting Group Work (GROUP) 2025"
   ],
   "service_academia_grants": [
-    ""
+    "NSERC Discovery Grants 2015, 2018, 2019, 2023 -- 2025",
+    "NSERC Alliance Grants 2025"
   ],
   "service_academia_journals": [
-    ""
+    "Proceedings of the ACM (GROUP) Associate Editor, 2024 -- 2027"
   ],
   "service_academia_other": [
-    ""
+    "2025 --- 2 MSc, 4 PhD"
   ],
   "service_public": [
-    ""
+    "[Invited talk] 2025: Community Support for Aging in Place: A Computational Thematic Analysis of Discussions about Informal Care on Reddit (Human-Computer Interaction in Healthcare)",
+    "[Invited talk] 2025: Critical Tech Talk 12: Vibe Coding with AI for Cancer Detection -- Building Mini Medical Machines in the Shadow of \u201cBig Tech\u201d"
   ],
   "service_other": [
     ""
   ],
   "awards": [
-    ""
+    "Special recognition for DIS 2026 Papers (exceptional reviews)",
+    "3 x Special recognition for CHI 2025 Papers (exceptional reviews)"
   ]
 }

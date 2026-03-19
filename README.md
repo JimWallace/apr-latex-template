@@ -14,6 +14,8 @@ This project rebuilds the Faculty Performance Review directly in LaTeX. The goal
   - Extracts plain text from a CV.
 - `scripts/cv_to_apr_json.py`
   - Produces a draft APR JSON file from CV text.
+- `scripts/cv_repo_to_apr_json.py`
+  - Syncs a Git-based CV repo and produces APR JSON directly from its LaTeX CV and bibliography.
 - `scripts/render_apr.py`
   - Renders APR JSON into LaTeX macros and table bodies.
 - `data/report_data.json`
@@ -47,6 +49,24 @@ make apr
 open generated/apr_filled.pdf
 ```
 
+## CV repo workflow
+
+If your CV lives in a Git repo, you can pull from it directly:
+
+```bash
+make cv-repo-json CV_REPO=https://github.com/JimWallace/APR---Waterloo-Health-CV YEARS="2025 2026"
+make apr
+```
+
+The importer will clone or update the CV repo in `generated/cv_repo_cache`, parse `main.tex` and `scholar.bib`, and populate as much of `data/report_data.json` as it can from:
+
+- name and current rank
+- awards and distinctions
+- service and professional activities
+- graduate supervision
+- scholarly outputs for the selected review years
+- technical reports, patents, invited talks, and presentations
+
 ## Current status
 
 The LaTeX template now follows the APR’s native table structure more closely:
@@ -66,4 +86,5 @@ The LaTeX template now follows the APR’s native table structure more closely:
 - line-by-line spacing against the reference PDF
 - exact column widths and page breaks
 - CV parsing tuned against your actual CV sections and naming conventions
+- teaching-specific APR sections that are not represented in the CV repo, such as course enrolments, SCP scores, and workload weights
 - optional support for Attachments B and C if you want the full package recreated
