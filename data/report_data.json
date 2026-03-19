@@ -1,0 +1,150 @@
+{
+  "review_years": [2025, 2026],
+  "faculty_name": "Your Name",
+  "rank": "Associate Professor",
+  "appointment_type": "Permanent",
+  "appointment_category": "",
+  "leave_dates": "",
+  "reduced_workload_percentage": "100%",
+  "year1_teaching_weight": "40%",
+  "year1_research_weight": "40%",
+  "year1_service_weight": "20%",
+  "year2_teaching_weight": "40%",
+  "year2_research_weight": "40%",
+  "year2_service_weight": "20%",
+  "teaching_courses": [
+    {
+      "year_label": "Year 1",
+      "course_term": "HLTH 000 F '25",
+      "enrolled": "",
+      "first_time": "N",
+      "level": "U/G",
+      "delivery": "IP",
+      "developed": "N",
+      "required_or_elective": "Req",
+      "team_taught": "N"
+    }
+  ],
+  "scp_entries": [
+    {
+      "course": "",
+      "implementation": "",
+      "design": "",
+      "response_rate": "",
+      "enrolled": "",
+      "comments": ""
+    }
+  ],
+  "curriculum_work": [
+    {
+      "date": "",
+      "activity": ""
+    }
+  ],
+  "teaching_professional_development": [
+    {
+      "date": "",
+      "activity": ""
+    }
+  ],
+  "sotl_entries": [
+    {
+      "date": "",
+      "activity": ""
+    }
+  ],
+  "undergrad_supervision_counts": {
+    "total": "",
+    "completed": "",
+    "in_progress": ""
+  },
+  "undergrad_supervision": [
+    {
+      "student_name": "",
+      "project": "",
+      "start_date": "",
+      "completion_status": "",
+      "co_supervisor": ""
+    }
+  ],
+  "graduate_supervision_counts": {
+    "total": "",
+    "completed": "",
+    "in_progress": ""
+  },
+  "graduate_supervision": [
+    {
+      "student_name": "",
+      "level": "",
+      "start_date": "",
+      "completion_status": "",
+      "co_supervisor": ""
+    }
+  ],
+  "committee_member_counts": {
+    "total": "",
+    "completed": "",
+    "in_progress": ""
+  },
+  "committee_memberships": [
+    {
+      "student_name": "",
+      "level": "",
+      "department": "",
+      "start_date": "",
+      "completion_status": ""
+    }
+  ],
+  "scholarly_summary_year": "2025",
+  "scholarly_summary_counts": {
+    "Full refereed published articles": "",
+    "Full refereed in-press articles": "",
+    "Other scholarly work": "",
+    "Books": "",
+    "Book chapters": "",
+    "Refereed published conference proceedings": "",
+    "Refereed in-press conference proceedings": ""
+  },
+  "teaching_summary": [
+    "Add course perception results, innovations, supervision, mentorship, and other evidence of teaching here."
+  ],
+  "scholarship_summary": [
+    "Add peer-reviewed outputs, grants, invited talks, knowledge mobilization, and scholarly impact here."
+  ],
+  "technical_reports": [
+    ""
+  ],
+  "research_translation": [
+    ""
+  ],
+  "patents": [
+    ""
+  ],
+  "service_university": [
+    ""
+  ],
+  "service_profession_membership": [
+    ""
+  ],
+  "service_profession_committees": [
+    ""
+  ],
+  "service_academia_grants": [
+    ""
+  ],
+  "service_academia_journals": [
+    ""
+  ],
+  "service_academia_other": [
+    ""
+  ],
+  "service_public": [
+    ""
+  ],
+  "service_other": [
+    ""
+  ],
+  "awards": [
+    ""
+  ]
+}

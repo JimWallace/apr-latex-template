@@ -1,0 +1,265 @@
+\documentclass[12pt,letterpaper]{article}
+
+\usepackage[margin=0.85in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{newtxtext,newtxmath}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{longtable}
+\usepackage{ragged2e}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{hyperref}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.3em}
+\renewcommand{\arraystretch}{1.18}
+\setlist[itemize]{leftmargin=1.35em, topsep=0.2em, itemsep=0.1em}
+\titleformat{\section}{\normalfont\normalsize\bfseries}{}{0em}{}
+
+\input{../generated/macros.tex}
+
+\newcommand{\APRField}[2]{#1 #2\par}
+\newcommand{\APRSpacer}{\vspace{0.45em}}
+\newcommand{\APRAddRows}{Add additional rows as necessary.}
+\newcommand{\APRBlankLine}{\rule{\linewidth}{0.4pt}}
+\newcommand{\APRSubhead}[1]{\underline{\textbf{#1}}:}
+
+\begin{document}
+
+\begin{center}
+\textbf{Attachment A}
+
+\underline{\textbf{FACULTY PERFORMANCE REVIEWS}}
+
+\underline{\textbf{Faculty of Health}}
+\end{center}
+
+\textbf{For probationary and definite term contract appointments - evaluation is conducted \underline{annually}.}
+
+\textbf{For permanent or tenured faculty - evaluation is conducted \underline{every two years} (biennial cycle is conducted on "odd" year cycle).}
+
+\textbf{Faculty awarded tenure or permanence during an even year - evaluation will be conducted for a single year, and then the following evaluation will be based on two years to transition to the biennial cycle.}
+
+\underline{Note}: Members shall provide documentation for the calendar year(s) under evaluation (one year for members holding probationary or definite-term appointments, and two years for members holding permanent or tenured appointments). In addition, members shall provide documentation for the number of previous years specified by their Faculty Guidelines. Scholarship shall be assessed on the total evidence from a window of two years. Teaching and service shall be assessed on the evidence from the year(s) under evaluation. The remaining documented years shall provide context to the assessed evidence (MoA article 13.5.2 (b)).
+
+\APRField{For review year(s):}{\APRReviewYears}
+\APRField{Faculty member's name:}{\APRFacultyName}
+\APRField{Rank (as of Dec 31):}{\APRRank}
+\APRField{Appointment Type:}{\APRAppointmentType}
+\APRField{Appointment Category:}{\APRAppointmentCategory}
+\APRField{Current/previous sabbatical/special leave, unpaid leave, and sick leave date:}{\APRLeaveDates}
+\APRField{Please indicate reduced workload weighting percentage, if different than 100\%:}{\APRReducedWorkload}
+
+Weightings need to be formalized in the member's letter of appointment; any changes must be confirmed, in writing, with Chair/Director (copy to be forwarded to the Faculty Office for personnel file).
+
+For members on a biennial performance review cycle, the rating for non-review years shall be equal to the rating for the previous review year.
+
+\APRSpacer
+\textbf{Workload Weightings:}
+
+\begin{tabular}{@{}p{0.45\linewidth}p{0.45\linewidth}@{}}
+\underline{Year 1:} & \underline{Year 2:} \\
+Teaching \APRYearOneTeaching & Teaching \APRYearTwoTeaching \\
+Research \APRYearOneResearch & Research \APRYearTwoResearch \\
+Service \APRYearOneService & Service \APRYearTwoService \\
+\end{tabular}
+
+\section*{A. Teaching Activity: Please document the extent of your involvement in and quality of teaching since the previous evaluation (ending Dec 31).}
+
+As per Faculty Relations Committee, academic units should be open to other sorts of evidence of teaching and provide clear rules for what counts for summative evaluations and what is to be used for formative purposes.
+
+\APRSubhead{Courses Taught}
+
+\textbf{1. Please list the courses that you taught over the faculty performance evaluation year(s):}
+
+{\footnotesize
+\begin{longtable}{|>{\RaggedRight\arraybackslash}p{1.7cm}|>{\RaggedRight\arraybackslash}p{2.8cm}|>{\RaggedRight\arraybackslash}p{1.0cm}|>{\Centering\arraybackslash}p{1.2cm}|>{\Centering\arraybackslash}p{1.4cm}|>{\Centering\arraybackslash}p{1.4cm}|>{\Centering\arraybackslash}p{1.25cm}|>{\Centering\arraybackslash}p{1.55cm}|>{\Centering\arraybackslash}p{0.95cm}|}
+\hline
+\textbf{Year} & \textbf{Course and term} & \textbf{\# enrolled} & \textbf{First time?} & \textbf{Grad / Undergrad} & \textbf{Online / in-person} & \textbf{Developed?} & \textbf{Required / elective} & \textbf{Team?} \\ \hline
+\TeachingCoursesTableBody
+\end{longtable}}
+
+\APRAddRows
+
+\begin{itemize}
+\item \textbf{Include the Student Course Perceptions Survey data for each course:}
+\end{itemize}
+
+{\footnotesize
+\begin{longtable}{|>{\RaggedRight\arraybackslash}p{3.1cm}|>{\Centering\arraybackslash}p{1.8cm}|>{\Centering\arraybackslash}p{1.6cm}|>{\Centering\arraybackslash}p{1.8cm}|>{\Centering\arraybackslash}p{1.7cm}|>{\RaggedRight\arraybackslash}p{4.2cm}|}
+\hline
+\textbf{Year of course evaluation} & \textbf{Mean SCP Implementation} & \textbf{Mean SCP Design} & \textbf{Student response rate (\%)} & \textbf{Number enrolled} & \textbf{Comments for student ratings, including unusual circumstances} \\ \hline
+\SCPTableBody
+\end{longtable}}
+
+\APRSubhead{Curriculum Work}
+
+\textbf{1.2 Please list course design or implementation changes and any new course development undertaken during the faculty performance evaluation period.}
+
+\begin{longtable}{|>{\RaggedRight\arraybackslash}p{2.3cm}|>{\RaggedRight\arraybackslash}p{12.0cm}|}
+\hline
+\textbf{Date} & \textbf{Nature of the activity} \\ \hline
+\CurriculumWorkTableBody
+\end{longtable}
+
+\APRAddRows
+
+\APRSubhead{Professional Development and Scholarship}
+
+\textbf{1.3 Please list any professional development related to teaching (e.g., workshops, conferences, training, etc.) undertaken during the faculty performance evaluation period. How has this impacted on your teaching practice?}
+
+\begin{longtable}{|>{\RaggedRight\arraybackslash}p{2.3cm}|>{\RaggedRight\arraybackslash}p{12.0cm}|}
+\hline
+\textbf{Date} & \textbf{Nature of the activity} \\ \hline
+\TeachingPDTableBody
+\end{longtable}
+
+\APRAddRows
+
+\begin{itemize}
+\item \textbf{Please list work on the Scholarship of Teaching and Learning (e.g., publications, presentations at conferences or workshops, etc.) undertaken during the evaluation period.}
+\end{itemize}
+
+\begin{longtable}{|>{\RaggedRight\arraybackslash}p{2.3cm}|>{\RaggedRight\arraybackslash}p{12.0cm}|}
+\hline
+\textbf{Date} & \textbf{Scholarship of teaching and learning} \\ \hline
+\SOTLTableBody
+\end{longtable}
+
+\APRAddRows
+
+\textbf{2. \APRSubhead{Student Supervision}}
+
+Please list the supervision tasks that you have undertaken over the evaluation period.
+
+\textbf{2.1 Undergraduate student: Total (\APRUndergradTotal); Completed (\APRUndergradCompleted); In progress (\APRUndergradInProgress)}
+
+\begin{longtable}{|>{\RaggedRight\arraybackslash}p{3.0cm}|>{\RaggedRight\arraybackslash}p{4.2cm}|>{\RaggedRight\arraybackslash}p{2.2cm}|>{\RaggedRight\arraybackslash}p{3.0cm}|>{\RaggedRight\arraybackslash}p{2.6cm}|}
+\hline
+\textbf{Student name} & \textbf{Thesis/independent study} & \textbf{Start date} & \textbf{Date of completion/in progress} & \textbf{Co-supervisor} \\ \hline
+\UndergradSupervisionTableBody
+\end{longtable}
+
+\APRAddRows
+
+\textbf{2.2 Graduate students and postdoctoral fellows: Total (\APRGraduateTotal); Completed (\APRGraduateCompleted); In progress (\APRGraduateInProgress)}
+
+\begin{longtable}{|>{\RaggedRight\arraybackslash}p{3.0cm}|>{\RaggedRight\arraybackslash}p{2.2cm}|>{\RaggedRight\arraybackslash}p{2.2cm}|>{\RaggedRight\arraybackslash}p{3.4cm}|>{\RaggedRight\arraybackslash}p{2.6cm}|}
+\hline
+\textbf{Student name} & \textbf{Level} & \textbf{Start date} & \textbf{Date of completion/in progress} & \textbf{Co-supervisor} \\ \hline
+\GraduateSupervisionTableBody
+\end{longtable}
+
+\APRAddRows
+
+List all students that you worked with as a committee member. For each student, include name, start date, level of study, role, and date of completion, if appropriate.
+
+\textbf{2.3 Committee Member: Total (\APRCommitteeTotal); Completed (\APRCommitteeCompleted); In progress (\APRCommitteeInProgress)}
+
+\begin{longtable}{|>{\RaggedRight\arraybackslash}p{3.0cm}|>{\RaggedRight\arraybackslash}p{3.0cm}|>{\RaggedRight\arraybackslash}p{2.5cm}|>{\RaggedRight\arraybackslash}p{2.0cm}|>{\RaggedRight\arraybackslash}p{3.0cm}|}
+\hline
+\textbf{Student name} & \textbf{Level} & \textbf{Dept/School} & \textbf{Start date} & \textbf{Date of completion/in progress} \\ \hline
+\CommitteeMembershipTableBody
+\end{longtable}
+
+\APRAddRows
+
+\section*{B. Scholarly Activity:}
+
+\begin{tabular}{|p{11.5cm}|p{3cm}|}
+\hline
+\multicolumn{2}{|l|}{\textbf{Summary for \APRScholarlySummaryYear}} \\ \hline
+Full refereed published articles & \APRPublishedArticles \\ \hline
+Full refereed in-press articles & \APRInPressArticles \\ \hline
+Other scholarly work & \APROtherScholarlyWork \\ \hline
+Books & \APRBooks \\ \hline
+Book chapters & \APRBookChapters \\ \hline
+Refereed published conference proceedings & \APRPublishedProceedings \\ \hline
+Refereed in-press conference proceedings & \APRInPressProceedings \\ \hline
+\end{tabular}
+
+\APRSpacer
+\APRScholarshipSummary
+
+\begin{itemize}
+\item \textbf{Technical reports, policy briefs produced:}
+\end{itemize}
+\APRTechnicalReports
+
+\begin{itemize}
+\item \textbf{Describe any other research translation activities undertaken, not otherwise described:}
+\end{itemize}
+\APRResearchTranslation
+
+\begin{itemize}
+\item \textbf{Patents} (e.g., material transfer agreements, etc.):
+\end{itemize}
+\APRPatents
+
+\section*{C. Service:}
+
+\textbf{Nature and scope of service contributions}
+
+Faculty members are required to describe the nature and scope of their service contributions, including an estimate of time spent on each item so that they can be properly evaluated. Only service directly related to your role as a faculty member should be reported. Do not include service which you perform as an independent citizen.
+
+Service can be divided into four categories: Service to the University of Waterloo, including faculty and department; service to your profession (if applicable); service to academia; service to the broader public that is related to your position as a faculty member.
+
+For each type of service, provide title/role, name of sponsor, agency/organization, estimated number of hours during the year, and whether the service was assigned by a chair, dean, or other person) or voluntary. In any category, please add any comments related to quality or quantity that you believe would assist in the evaluation.
+
+\begin{itemize}
+\item \textbf{Service to University/Faculty/Dept.}
+\item \textbf{Committees (include ad hoc)}
+\end{itemize}
+\APRServiceUniversity
+
+\begin{itemize}
+\item \textbf{Service to your Profession} (i.e., Professional associations)
+\item \textbf{Membership}
+\end{itemize}
+\APRServiceProfessionMembership
+
+\begin{itemize}
+\item \textbf{Committees, etc.}
+\end{itemize}
+\APRServiceProfessionCommittees
+
+\begin{itemize}
+\item \textbf{Service to Academia}
+\end{itemize}
+
+List activity as reviewer of:
+
+\begin{itemize}
+\item \textbf{Grant applications:}
+\end{itemize}
+\APRServiceAcademiaGrants
+
+\begin{itemize}
+\item \textbf{Journal articles:}
+\end{itemize}
+\APRServiceAcademiaJournals
+
+\begin{itemize}
+\item \textbf{Other} (e.g., mentorship and/or providing letters of support for award nominations, grant writing)
+\end{itemize}
+\APRServiceAcademiaOther
+
+\begin{itemize}
+\item \textbf{Service to the Broader Public} related to your position as a faculty member, community service related to professional activities (e.g., Speaker's Bureau, High School Talks, etc.)
+\end{itemize}
+\APRServicePublic
+
+\begin{itemize}
+\item \textbf{Other}
+\end{itemize}
+\APRServiceOther
+
+\section*{D. Awards:}
+
+Describe any teaching/supervision, research or service awards won during the year, including the name, sponsor, amount, date, and objective of the award.
+
+\APRAwards
+
+\end{document}
